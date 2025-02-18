@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Knowledge iMed</title>
+    <link rel="icon" type="image/png" href="../img/logo_iMed.png">
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <div class="mainlogin">
+        <div class="left-section-login">
+            <img src="../img/logo_iMed.png" alt="Logo iMed"  class="logo-login">
+            <h1>Knowledge iMed</h1>
+        </div>
+
+        <div class="right-section-login">
+            <div class="sign-form-login">
+                <h2>Sign In</h2>
+
+                <div class="form-group-inputlogin">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" placeholder="E-mail" class="form-control-login">
+                </div>
+
+                <div class="form-group-inputlogin">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" placeholder="Password" class="form-control-login">
+                </div>
+
+                <button class="sign-in-button" onclick="handleLogin()">Login</button>
+
+                <div class="divider-login"></div>
+
+                <button class="line-button" onclick="handleLineLogin()">
+                    <img src="../img/line-icon.png" alt="LINE Icon" class="line-icon">
+                    Log In with LINE
+                </button>
+
+                <div class="divider-login"></div>
+                <button class="back-button" onclick="handleBack()">Back to Knowledge iMed</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
